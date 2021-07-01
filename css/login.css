@@ -1,0 +1,65 @@
+/*Import font*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-image: url(../img/fruta.jpg);
+    background-repeat: no-repeat;
+}
+
+.login {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 35%;
+    margin-top: 120px;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10%;
+}
+
+.login img {
+    width: 40%;
+}
+
+.text {
+    font-size: 35px;
+    text-align: center;
+}
+
+.flex-item {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 17px;
+}
+
+.item {
+    margin-bottom: 15px;
+    width: 120px;
+    display: list-item;
+    margin: auto;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.item-a {
+    display: list-item;
+    margin-bottom: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .login {
+        width: 65%;
+    }
+}

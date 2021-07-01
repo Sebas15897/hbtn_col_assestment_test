@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.busq {
+    display: flex;
+    font-size: 25px;
+    color: gray;
+}
+
+/*Carrito*/
+.buttons {
+    background-color: #0088ff;
+    font-size: 25px;
+    width: 18%;
+    border-radius: 4%;
+    display: flex;
+    margin: auto;
+    margin-right: 10px;
+    margin-top: -330px;
+}
+
+strong {
+    color: white;
+    padding: 20px 25px;
+}
+
+/*Busqueda*/
+.search {
+    display: flex;
+    margin-top: 100px;
+}
+
+.buscar {
+    margin: auto;
+    text-align: center;
+    color: gray;
+}
+
+.contenedor-g {
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+
+.buttona {
+    background-color: #0088ff;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5%;
+}
+
+/*Productos*/
+.tienda {
+    margin-top: 300px;
+    color: #0088ff;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+    padding: 10px 15px;
+    font-size: 35px;
+    text-align: center;
+}
