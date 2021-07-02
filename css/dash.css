@@ -1,0 +1,27 @@
+/*Import font*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.er {
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin-top: 5px;
+    background-color: #0088ff;
+    width: 50%;
+    color: white;
+    border-radius: 5%;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 300px;
+}
