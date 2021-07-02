@@ -1,6 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/8446c158db.js" crossorigin="anonymous"></script>
+    <title>Agregar</title>
+</head>
+<body>
+<header>
+    <div class="menuContainer"></div>
+</header>
 <?php include_once "encabezado.php" ?>
-<div class="columns">
-    <div class="column is-one-third">
+<div class="columnss">
+    <div class="column">
         <h2 class="is-size-2">Nuevo producto</h2>
         <form action="guardar_producto.php" method="post">
             <div class="field">
@@ -30,3 +46,10 @@
         </form>
     </div>
 </div>
+<script>
+        $(document).ready(function () {
+            $('.menuContainer').load('nav2.php');
+        });
+    </script>
+</body>
+</html>
