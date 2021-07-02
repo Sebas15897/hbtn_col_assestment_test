@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://kit.fontawesome.com/8446c158db.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/carrito.png" type="image/x-icon">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/carrito.css">
     <title>Carrito</title>

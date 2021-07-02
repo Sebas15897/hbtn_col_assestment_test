@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/productos.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="shortcut icon" href="img/carrito.png" type="image/x-icon">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://kit.fontawesome.com/8446c158db.js" crossorigin="anonymous"></script>
     <title>Tienda</title>
@@ -81,12 +83,16 @@
                     </div>
             </div>
         </div>
-
+<?php } ?>
+<div class="footerContainer"></div>
     <script>
         $(document).ready(function () {
             $('.menuContainer').load('nav.php');
         });
+
+        $(document).ready(function () {
+            $('.footerContainer').load('footer.php');
+        });
     </script>
-<?php } ?>
 </body>
 </html>
